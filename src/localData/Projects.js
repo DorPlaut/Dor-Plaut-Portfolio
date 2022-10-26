@@ -1,0 +1,78 @@
+const projectsData = [
+  {
+    title: 'Pomodoro Timer',
+    img: 'https://dorplaut.github.io/portfolio/images/Pomadoro.jpg',
+    desc: 'This project was build with React.js The page contains 2 controllers for session time and break time. also there are reset and play/pause buttons. set you session and break time and click play. after the session time will run out, the break will start. the timer will run endlessly unless you pause or reset.',
+    leng: ['JavaScript', 'React'],
+    gitLink: 'https://github.com/DorPlaut/Pomodoro-Timer',
+    demoLink: 'https://pomdoro-timer.netlify.app/',
+    category: 'frontend',
+  },
+  {
+    title: 'Markdown Previewer',
+    img: 'https://dorplaut.github.io/portfolio/images/MarkDown.jpg',
+    desc: "Build using react js. In addition to write markdown text and check it in the previewer, you can change the editor size and position. On mobile devices the page will work a little diffrent. The editor will be fix'd to the top. and insted of move and resize you'll only be able to minimize and spread.",
+    leng: ['JavaScript', 'React'],
+    gitLink: 'https://github.com/DorPlaut/Markdown-Previewer',
+    demoLink: 'https://markdownpreviewereditor.netlify.app/',
+    category: 'frontend',
+  },
+  {
+    title: '3D Drum Machine',
+    img: 'https://dorplaut.github.io/portfolio/images/3DDrums.jpg',
+    desc: "Build using react js. The page contains a 3D Room build with Three.fiber. In the room you have a drum kit that work as a standard drum machine. you can click on drums and cymbals to play or push the corresponding keys on the keyboard. In addition to the drums, the page contains a controller section and within you'll find on/off button and a display screen.",
+    leng: ['JavaScript', 'React'],
+    gitLink: 'https://github.com/DorPlaut/3D-Drum-Machine',
+    demoLink: 'https://3ddrummachine.netlify.app/',
+    category: 'frontend',
+  },
+  {
+    title: 'Space Quotes API',
+    img: '',
+    desc: 'the api is very easy to use. for all the GET request you will get a JSON format response with your space themed quote, author and id',
+    leng: ['JavaScript', 'Node'],
+    gitLink: 'https://github.com/DorPlaut/Space-Quotes-API',
+    demoLink: 'https://space-quotes-api.onrender.com/',
+    category: 'backend',
+  },
+  {
+    title: 'Random Quote Machine',
+    img: 'https://dorplaut.github.io/portfolio/images/Quotes.jpg',
+    desc: 'This project was build using React js. The page will generate a random quote fetchd from an external API. The quote container will change colors for each quote generated. I also included some 3D backround and animation using Three.fiber. Quotes coming from an API I created ',
+    leng: ['JavaScript', 'Node', 'React'],
+    gitLink: 'https://github.com/DorPlaut/Space-Quotes-API',
+    demoLink: 'https://randonquotesmachine.netlify.app/',
+    category: 'fullstack',
+  },
+  {
+    title: 'Exercise Tracker',
+    img: '',
+    desc: 'Exercise tracker with a simple user system. you can register, and start track your Exercises. you can also get logs of all the Exercises for any user',
+    leng: ['JavaScript', 'Node'],
+    gitLink: 'https://github.com/DorPlaut/Exercise-tracker',
+    demoLink: '',
+    category: 'backend',
+  },
+  {
+    title: 'FCC javascript projects',
+    img: 'https://dorplaut.github.io/portfolio/images/javascript.jpg',
+    desc: 'Build using JavaScript, styled with BootStrap The page contains a BootStrap sliders with 4 basic javascript projects from the FreeCodeCamp course. the navigation bar will take you between projects. on mobile you can swipe between them',
+    leng: ['JavaScript', 'Bootstrap'],
+    gitLink: 'https://github.com/DorPlaut/FCC-javascript-projects',
+    demoLink:
+      'https://dorplaut.github.io/portfolio/FCC%20javascript%20projects/index.html',
+    category: 'frontend',
+  },
+  {
+    title: 'Landing Page 3D',
+    img: 'https://dorplaut.github.io/portfolio/images/HomePage.jpg',
+    desc: 'This project was build with JavaScript,HTML and CSS, using the Three.js library for the 3d elements. The page contains some text, a simple form. and an on-off switch for the controls. when activated the user can control the background 3d elements.',
+    leng: ['JavaScript', 'Three.JS'],
+    gitLink: 'https://github.com/DorPlaut/FCC-javascript-projects',
+    demoLink:
+      'https://dorplaut.github.io/portfolio/FCC%20javascript%20projects/index.html',
+    category: 'frontend',
+  },
+];
+
+export default projectsData;
