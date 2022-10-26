@@ -11,12 +11,18 @@
   --greyColor: grey;
   --borderRadiusContainer: 30px;
   --borderRadiusChild: 10px;
+  animation: Fade 1s linear forwards;
+  opacity: 0;
 }
 /* GLOBAL CSS For all the Pages and components */
 body {
   background: var(--primaryDarkColor);
   color: var(--primaryDarkColor);
+  animation: Fade 1s linear forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
+
 .container {
   background: var(--WhiteColorTransperent);
   padding: 1rem 1.5rem;
@@ -289,6 +295,7 @@ footer {
 }
 @media screen and (max-width: 820px) {
   .projects-container {
+    top: 13rem;
     grid-template-columns: auto;
   }
   header {
@@ -318,5 +325,15 @@ footer {
   .header-contact {
     position: relative;
     margin-bottom: 4rem;
+  }
+}
+
+/* animation */
+@keyframes Fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
