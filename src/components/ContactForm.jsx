@@ -1,12 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function ContactForm() {
   const form = useRef();
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_xxkg0eo',
@@ -16,6 +18,9 @@ function ContactForm() {
       )
       .then(
         (result) => {
+          setName('');
+          setEmail('');
+          setMessage('');
           alert('Message sent successfully');
         },
         (error) => {
@@ -32,6 +37,8 @@ function ContactForm() {
           type="text"
           name="user_name"
           placeholder="Name"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
           className="form-input"
           required
         />
@@ -39,6 +46,8 @@ function ContactForm() {
           type="email"
           name="user_email"
           placeholder="Email"
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
           className="form-input"
           required
         />
@@ -47,6 +56,8 @@ function ContactForm() {
           placeholder="Enter your message"
           rows="7"
           className="form-input"
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
           required
         ></textarea>
         <button className="btn send-btn" type="submit" value="Send">
