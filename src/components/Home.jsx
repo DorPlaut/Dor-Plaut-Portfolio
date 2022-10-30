@@ -25,7 +25,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
             <div>
               <p className="about">
                 Hello there. My name is Dor and I'm a self taught web developer
-                from Israel. I started my coding journey in march of 2022 by
+                from Israel. I started my coding journey in May of 2022 by
                 taking courses online. Since then I worked on my skills in front
                 and back end development. And I aspire to develop a career in
                 the field. My preferred language is JavaScript. And I'm working
