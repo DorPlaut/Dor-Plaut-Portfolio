@@ -2,7 +2,7 @@ const projectsData = [
   {
     title: 'Band Ecommerce Shop',
     img: './BlackSachbakSiteScreenShot.jpg',
-    desc: 'A fully working Ecommerce for a band web page. icludes OAuth 2.0 authorization system and a fully automated shop working with a print on dammend service. The front end was Build with React. Backend was build with Node and Express and used to handle user authentication, order mangement and fetching Product. all working with MongoDb Data base. ',
+    desc: 'A fully working Ecommerce for a band web page. includes OAuth 2.0 authorization system and a fully automated shop working with a print on dammend service API. The front end was Build with React. Backend was build with Node and Express and is job is to handle user authentication, order mangement and fetching Products. all working with MongoDb Data base. ',
     leng: ['JavaScript', 'Node', 'Express', 'React', 'MongoDB'],
     gitLink: 'https://github.com/DorPlaut/BlackSachbakSite',
     demoLink: 'https://BlackSachbak.com',
