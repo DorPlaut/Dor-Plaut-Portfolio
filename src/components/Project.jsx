@@ -16,7 +16,7 @@ function Project({ title, img, desc, gitLink, demoLink, leng }) {
         <p className="description">
           {desc}
           <br />
-          <span className="project-leng">{leng}</span>
+          <span className="project-leng">{leng.join(' | ')}</span>
         </p>
         <div className="projects-btn-container">
           <a href={demoLink} target="blank" className="btn ">
