@@ -13,7 +13,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
         exit={{ y: 300, opacity: 0 }}
       >
         <header>
-          <h1>Dor Plaut</h1>
+          <h1>DOR PLAUT</h1>
           <h2>Web Developer</h2>
         </header>
 
