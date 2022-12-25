@@ -45,10 +45,10 @@ const projectsData = [
   },
   {
     title: 'Markdown Previewer',
-    img: 'https://dorplaut.github.io/portfolio/images/MarkDown.jpg',
+    img: '/MarkDown.jpg',
     desc: "Build using react js. In addition to write markdown text and check it in the previewer, you can change the editor size and position. On mobile devices the page will work a little diffrent. The editor will be fix'd to the top. and insted of move and resize you'll only be able to minimize and spread.",
     leng: ['JavaScript', 'React'],
-    gitLink: './MarkDown.jpg',
+    gitLink: 'https://github.com/DorPlaut/Markdown-Previewer',
     demoLink: 'https://markdownpreviewereditor.netlify.app/',
     category: 'frontend',
   },
