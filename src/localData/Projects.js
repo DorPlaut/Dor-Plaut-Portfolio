@@ -36,7 +36,7 @@ const projectsData = [
   },
   {
     title: 'Pomodoro Timer',
-    img: 'https://dorplaut.github.io/portfolio/images/Pomadoro.jpg',
+    img: './Pomadoro.jpg',
     desc: 'This project was build with React.js The page contains 2 controllers for session time and break time. also there are reset and play/pause buttons. set you session and break time and click play. after the session time will run out, the break will start. the timer will run endlessly unless you pause or reset.',
     leng: ['JavaScript', 'React'],
     gitLink: 'https://github.com/DorPlaut/Pomodoro-Timer',
@@ -48,13 +48,13 @@ const projectsData = [
     img: 'https://dorplaut.github.io/portfolio/images/MarkDown.jpg',
     desc: "Build using react js. In addition to write markdown text and check it in the previewer, you can change the editor size and position. On mobile devices the page will work a little diffrent. The editor will be fix'd to the top. and insted of move and resize you'll only be able to minimize and spread.",
     leng: ['JavaScript', 'React'],
-    gitLink: 'https://github.com/DorPlaut/Markdown-Previewer',
+    gitLink: './MarkDown.jpg',
     demoLink: 'https://markdownpreviewereditor.netlify.app/',
     category: 'frontend',
   },
   {
     title: '3D Drum Machine',
-    img: 'https://dorplaut.github.io/portfolio/images/3DDrums.jpg',
+    img: './3DDrums.jpg',
     desc: "Build using react js. The page contains a 3D Room build with Three.fiber. In the room you have a drum kit that work as a standard drum machine. you can click on drums and cymbals to play or push the corresponding keys on the keyboard. In addition to the drums, the page contains a controller section and within you'll find on/off button and a display screen.",
     leng: ['JavaScript', 'React', 'ThreeJs'],
     gitLink: 'https://github.com/DorPlaut/3D-Drum-Machine',
@@ -79,35 +79,34 @@ const projectsData = [
     demoLink: 'https://exercise-tracker-8vz9.onrender.com/',
     category: 'backend',
   },
-  {
-    title: 'FCC javascript projects',
-    img: 'https://dorplaut.github.io/portfolio/images/javascript.jpg',
-    desc: 'Build using JavaScript, styled with BootStrap The page contains a BootStrap sliders with 4 basic javascript projects from the FreeCodeCamp course. the navigation bar will take you between projects. on mobile you can swipe between them',
-    leng: ['JavaScript', 'Bootstrap'],
-    gitLink: 'https://github.com/DorPlaut/FCC-javascript-projects',
-    demoLink:
-      'https://dorplaut.github.io/portfolio/FCC%20javascript%20projects/index.html',
-    category: 'frontend',
-  },
+  // {
+  //   title: 'FCC javascript projects',
+  //   img: 'https://dorplaut.github.io/portfolio/images/javascript.jpg',
+  //   desc: 'Build using JavaScript, styled with BootStrap The page contains a BootStrap sliders with 4 basic javascript projects from the FreeCodeCamp course. the navigation bar will take you between projects. on mobile you can swipe between them',
+  //   leng: ['JavaScript', 'Bootstrap'],
+  //   gitLink: 'https://github.com/DorPlaut/FCC-javascript-projects',
+  //   demoLink:
+  //     'https://dorplaut.github.io/portfolio/FCC%20javascript%20projects/index.html',
+  //   category: 'frontend',
+  // },
   {
     title: 'Landing Page 3D',
-    img: 'https://dorplaut.github.io/portfolio/images/HomePage.jpg',
+    img: './HomePage.jpg',
     desc: 'This project was build with JavaScript using the Three.js library. The page contains some text, a simple form. and an on-off switch for the controls. when activated the user can control the background 3d elements.',
     leng: ['JavaScript', 'Three.JS'],
     gitLink: 'https://github.com/DorPlaut/FCC-javascript-projects',
-    demoLink:
-      'https://dorplaut.github.io/portfolio/FCC%20javascript%20projects/index.html',
+    demoLink: 'https://dor-plaut-home-page.netlify.app/',
     category: 'frontend',
   },
-  {
-    title: 'Calculator',
-    img: 'https://dorplaut.github.io/portfolio/images/Calculator.jpg',
-    desc: 'A simple app. simply calculate numbers. Build with javaScript',
-    leng: ['JavaScript', 'HTML', 'CSS'],
-    gitLink: 'https://github.com/DorPlaut/JavaScript-Calculator',
-    demoLink: 'https://dorplaut.github.io/portfolio/js%20calc/index.html',
-    category: 'frontend',
-  },
+  // {
+  //   title: 'Calculator',
+  //   img: 'https://dorplaut.github.io/portfolio/images/Calculator.jpg',
+  //   desc: 'A simple app. simply calculate numbers. Build with javaScript',
+  //   leng: ['JavaScript', 'HTML', 'CSS'],
+  //   gitLink: 'https://github.com/DorPlaut/JavaScript-Calculator',
+  //   demoLink: 'https://dorplaut.github.io/portfolio/js%20calc/index.html',
+  //   category: 'frontend',
+  // },
 ];
 
 export default projectsData;
