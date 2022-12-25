@@ -1,5 +1,22 @@
 const projectsData = [
   {
+    title: 'Travel based Social Network',
+    img: './travelUscreenshot.jpg',
+    desc: 'Travel based Social Network with a auth 2.0 user system and Post system simuker to other sicual networks. Share your travels and adventures, Discover your next travel locations Like, comment and connect with other people based on their adventures and more... ',
+    leng: [
+      'JavaScript',
+      'Node',
+      'Express',
+      'React',
+      'Redux',
+      'Scss',
+      'MongoDB',
+    ],
+    gitLink: 'https://github.com/DorPlaut/TravelU',
+    demoLink: 'https://travel-u.netlify.app/',
+    category: 'fullstack',
+  },
+  {
     title: 'Band Ecommerce Shop',
     img: './BlackSachbakSiteScreenShot.jpg',
     desc: 'A fully working Ecommerce for a band web page. includes OAuth 2.0 authorization system and a fully automated shop working with a print on dammend service API. The front end was Build with React. Backend was build with Node and Express and his job is to handle user authentication, order mangement and fetching Products. all working with MongoDb Data base. ',
