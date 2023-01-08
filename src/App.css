@@ -35,12 +35,19 @@ body {
   height: 1rem;
   background: var(--primaryLightColor);
 }
+.border {
+  border-radius: 6px;
+  padding: 0.8rem;
+  transition: 0.3s;
+  border: 3px solid;
+}
 h3 {
   font-size: 2rem;
 }
 p,
 li {
   font-size: 1.1rem;
+  color: var(--primaryDarkColor);
 }
 a {
   text-decoration: none;
@@ -108,13 +115,22 @@ header h2 {
 .about {
   margin: 1.5rem;
 }
+.container-about {
+  overflow: hidden;
+  width: 100%;
+}
 .profile-pic {
-  margin: 1.5rem;
+  margin: 1rem 1rem 0 1rem;
   height: 12rem;
   border-radius: 50%;
 }
 .project-link {
   font-size: 3rem;
+  border-color: var(--primaryLightColor);
+}
+.project-link:hover {
+  background: var(--primaryDarkColor);
+  border-color: var(--WhiteColor);
 }
 .home-nav {
   text-align: center;
@@ -126,6 +142,23 @@ header h2 {
 .contact-btn-container {
   text-align: right;
 }
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  margin: 0.2rem;
+  border-width: 0.15rem;
+  border-color: var(--primaryDarkColor);
+}
+
 /* social links */
 .social-links-container-homepage {
   position: absolute;
@@ -325,6 +358,30 @@ footer {
   .header-contact {
     position: relative;
     margin-bottom: 4rem;
+  }
+  .project-link {
+    font-size: 2rem;
+  }
+  .about-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .about-content {
+    flex-direction: column;
+  }
+  .home-nav {
+    bottom: 4rem;
+  }
+  .container-about {
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-height: 660px) {
+  .social-links-container-homepage {
+    display: flex;
+    justify-content: end;
+    width: 98vw;
+    top: 1rem;
   }
 }
 

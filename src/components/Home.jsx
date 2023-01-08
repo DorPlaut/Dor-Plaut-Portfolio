@@ -2,8 +2,27 @@ import React from 'react';
 import SocialLinks from './SocialLinks';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { BsCheck2Circle } from 'react-icons/bs';
 
 function Home({ rotateBackround, setCurrentPageColor }) {
+  const skills = [
+    'HTML',
+    'CSS',
+    'Sass',
+    'Bootstrap',
+    'JavaScript',
+    'Node',
+    'Express',
+    'React',
+    'Redux',
+    'MongoDB',
+    'Mongoose',
+    'SQL',
+    'PostgreSQL',
+    'Bash',
+    'GIT',
+    'GitHub',
+  ];
   return (
     <>
       <motion.div
@@ -22,15 +41,26 @@ function Home({ rotateBackround, setCurrentPageColor }) {
           <div className="underline"></div>
           <div className="about-content">
             <img src="./ProfilePic.png" alt="me" className="profile-pic" />
-            <div>
+            <div className="container-about">
               <p className="about">
-                Hello. My name is Dor and I'm a self taught web developer from
-                Israel. I started my coding journey in May of 2022 by taking
-                courses online. Since then I worked on my skills in front and
-                back end development. And aspire to develop a career in the
-                field. my workflow includes: JavaScript, Node, Express, MongoDB,
-                React and more..
+                <h1 className="about-header">Hello I'm Dor</h1>
+                I'm a self taught web developer, Musician and a guitar builder.
+                I started my coding journey in May of 2022 by taking online
+                courses. I’m working on my skills in front and back end
+                development and learning new things every day. I aspire to
+                develop a career in the field, Determined to learn new stuff and
+                ready to work to succeed in my goals.
                 <br />
+                <br />
+                <ul className="skill-list">
+                  {skills.map((item, index) => {
+                    return (
+                      <li className="border skill" key={index}>
+                        <BsCheck2Circle /> {item}
+                      </li>
+                    );
+                  })}
+                </ul>
               </p>
               <div className="contact-btn-container">
                 <Link
@@ -52,7 +82,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
               setCurrentPageColor('purple');
               rotateBackround();
             }}
-            className="project-link"
+            className="project-link border"
             to="/projects"
           >
             Click here to chack my projects
