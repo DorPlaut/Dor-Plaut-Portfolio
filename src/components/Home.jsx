@@ -43,7 +43,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
             <img src="./ProfilePic.png" alt="me" className="profile-pic" />
             <div className="container-about">
               <p className="about">
-                <h1 className="about-header">Hello I'm Dor</h1>
+                <h1 className="about-header">Hello I'm Dor.</h1>
                 I'm a self taught web developer, Musician and a guitar builder.
                 I started my coding journey in May of 2022 by taking online
                 courses. I’m working on my skills in front and back end
