@@ -116,8 +116,8 @@ header h2 {
   margin: 1.5rem;
 }
 .container-about {
-  overflow: hidden;
   width: 100%;
+  padding: 0;
 }
 .profile-pic {
   margin: 1rem 1rem 0 1rem;
@@ -327,6 +327,9 @@ footer {
   }
 }
 @media screen and (max-width: 820px) {
+  .about {
+    text-align: center;
+  }
   .projects-container {
     top: 11rem;
     grid-template-columns: auto;
@@ -372,11 +375,11 @@ footer {
   .home-nav {
     bottom: 4rem;
   }
-  .container-about {
-    overflow-y: scroll;
+  .skill-list {
+    justify-content: center;
   }
 }
-@media screen and (max-height: 660px) {
+@media screen and (max-height: 670px) {
   .social-links-container-homepage {
     display: flex;
     justify-content: end;
