@@ -73,7 +73,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
                 >
                   <button className="btn contact-btn">contact me now</button>
                 </Link>
-                {'  '}
+                <div className="mobile-project-btn spacer"></div>
                 <Link
                   onClick={() => {
                     setCurrentPageColor('purple');
