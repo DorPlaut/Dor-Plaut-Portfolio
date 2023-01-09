@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import ContactForm from './ContactForm';
 import SocialLinks from './SocialLinks';
 import Nav from './Nav';
+import Footer from './Footer';
 
 function Contact({ rotateBackround, setCurrentPageColor }) {
   return (
@@ -60,12 +61,9 @@ function Contact({ rotateBackround, setCurrentPageColor }) {
 
         <ContactForm />
       </article>
-      <footer>
-        <SocialLinks />
-        <p>
-          Build by Dor Plaut <span>&copy;</span> 2022
-        </p>
-      </footer>
+      <SocialLinks />
+
+      <Footer />
     </motion.div>
   );
 }

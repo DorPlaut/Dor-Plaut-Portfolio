@@ -5,6 +5,7 @@ import { IoHomeSharp } from 'react-icons/io5';
 import Project from './Project';
 import projectsData from '../localData/Projects';
 import Nav from './Nav';
+import Footer from './Footer';
 
 function Projects({
   rotateBackround = { rotateBackround },
@@ -125,6 +126,7 @@ function Projects({
                 })}
         </div>
       </div>
+      <Footer />
     </motion.div>
   );
 }

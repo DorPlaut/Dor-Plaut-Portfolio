@@ -3,6 +3,7 @@ import SocialLinks from './SocialLinks';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { BsCheck2Circle } from 'react-icons/bs';
+import Footer from './Footer';
 
 function Home({ rotateBackround, setCurrentPageColor }) {
   const skills = [
@@ -72,6 +73,18 @@ function Home({ rotateBackround, setCurrentPageColor }) {
                 >
                   <button className="btn contact-btn">contact me now</button>
                 </Link>
+                {'  '}
+                <Link
+                  onClick={() => {
+                    setCurrentPageColor('purple');
+                    rotateBackround();
+                  }}
+                  to="/projects"
+                >
+                  <button className="btn contact-btn mobile-project-btn">
+                    my projects
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -91,6 +104,7 @@ function Home({ rotateBackround, setCurrentPageColor }) {
         <div className="social-links-container-homepage">
           <SocialLinks />
         </div>
+        <Footer />
       </motion.div>
     </>
   );
